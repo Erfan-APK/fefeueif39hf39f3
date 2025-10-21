@@ -1,0 +1,169 @@
+/home/erfan/pinn_envs/pinn_1/bin/python3 /mnt/e/Users/PycharmProjects/OnlyPer/Later Changes/sigma 1/AoA 10/snt45_yp/p1AoA10.py 
+Using device: cuda
+Angle of Attack: 10.0°
+U_inf_x: 0.9848, U_inf_y: 0.1736
+Starting training for 8000 epochs with PERIODIC boundary conditions...
+Angle of Attack: 10.0°
+Domain: x=[-2.0, 5.0], y=[-0.5, 0.5]
+Solidity = chord/domain_height = 1.0/1.0 = 1.0
+BC weight will reach maximum at epoch 7200
+Epoch 0/8000, Loss: 944.516357, Time: 0.82s
+  Periodic BC: u=2.600093, v=22.010004, p=4.639087
+Epoch 200: Added points. Total collocation points: 7773
+         Using mini-batches of size: 2500
+Epoch 400: Added points. Total collocation points: 8049
+         Using mini-batches of size: 2500
+Epoch 500/8000, Mini-batch Loss: 1.287105, Full Loss: 1.935122, CD: 0.029629, CL: -0.021479, Time: 31.95s
+  Periodic BC: u=0.000588, v=0.020254, p=0.005284
+Epoch 600: Added points. Total collocation points: 8338
+         Using mini-batches of size: 2500
+Epoch 800: Added points. Total collocation points: 8624
+         Using mini-batches of size: 2500
+Epoch 1000: Added points. Total collocation points: 8914
+         Using mini-batches of size: 2500
+Epoch 1000/8000, Mini-batch Loss: 0.161958, Full Loss: 0.081215, CD: 0.113853, CL: 0.034683, Time: 59.87s
+  Periodic BC: u=0.001460, v=0.010452, p=0.002111
+Epoch 1200: Added points. Total collocation points: 9188
+         Using mini-batches of size: 2500
+Epoch 1400: Added points. Total collocation points: 9466
+         Using mini-batches of size: 2500
+Epoch 1500/8000, Mini-batch Loss: 0.049360, Full Loss: 0.138090, CD: 0.073753, CL: -0.024508, Time: 88.01s
+  Periodic BC: u=0.000279, v=0.008650, p=0.000728
+Epoch 1600: Added points. Total collocation points: 9756
+         Using mini-batches of size: 2500
+Epoch 1800: Added points. Total collocation points: 10041
+         Using mini-batches of size: 2500
+Epoch 2000: Added points. Total collocation points: 10322
+         Using mini-batches of size: 2500
+Epoch 2000/8000, Mini-batch Loss: 0.034964, Full Loss: 0.082532, CD: 0.102587, CL: -0.033948, Time: 116.67s
+  Periodic BC: u=0.000555, v=0.003188, p=0.001567
+Epoch 2200: Added points. Total collocation points: 10594
+         Using mini-batches of size: 2500
+Epoch 2400: Added points. Total collocation points: 10872
+         Using mini-batches of size: 2500
+Epoch 2500/8000, Mini-batch Loss: 0.031269, Full Loss: 0.080686, CD: 0.130292, CL: -0.014092, Time: 145.78s
+  Periodic BC: u=0.001015, v=0.002422, p=0.000903
+Epoch 2600: Added points. Total collocation points: 11150
+         Using mini-batches of size: 2500
+Epoch 2800: Added points. Total collocation points: 11422
+         Using mini-batches of size: 2500
+Epoch 3000: Added points. Total collocation points: 11699
+         Using mini-batches of size: 2500
+Epoch 3000/8000, Mini-batch Loss: 0.036006, Full Loss: 0.094252, CD: 0.127524, CL: 0.013359, Time: 173.20s
+  Periodic BC: u=0.000613, v=0.001779, p=0.001295
+Epoch 3200: Added points. Total collocation points: 11981
+         Using mini-batches of size: 2500
+Epoch 3400: Added points. Total collocation points: 12249
+         Using mini-batches of size: 2500
+Epoch 3500/8000, Mini-batch Loss: 0.032201, Full Loss: 0.065237, CD: 0.142944, CL: -0.001526, Time: 201.05s
+  Periodic BC: u=0.001479, v=0.001399, p=0.000707
+Epoch 3600: Added points. Total collocation points: 12533
+         Using mini-batches of size: 2500
+Epoch 3800: Added points. Total collocation points: 12817
+         Using mini-batches of size: 2500
+Epoch 4000: Added points. Total collocation points: 13084
+         Using mini-batches of size: 2500
+Epoch 4000/8000, Mini-batch Loss: 0.024558, Full Loss: 0.051225, CD: 0.198062, CL: -0.019350, Time: 229.08s
+  Periodic BC: u=0.001347, v=0.000769, p=0.000632
+Epoch 4200: Added points. Total collocation points: 13352
+         Using mini-batches of size: 2500
+Epoch 4400: Added points. Total collocation points: 13609
+         Using mini-batches of size: 2500
+Epoch 4500/8000, Mini-batch Loss: 0.026634, Full Loss: 0.051994, CD: 0.197894, CL: 0.007354, Time: 259.65s
+  Periodic BC: u=0.001164, v=0.000832, p=0.000382
+Epoch 4600: Added points. Total collocation points: 13878
+         Using mini-batches of size: 2500
+Epoch 4800: Added points. Total collocation points: 14153
+         Using mini-batches of size: 2500
+Epoch 5000: Added points. Total collocation points: 14422
+         Using mini-batches of size: 2500
+Epoch 5000/8000, Mini-batch Loss: 0.023940, Full Loss: 0.032361, CD: 0.197701, CL: 0.040416, Time: 289.60s
+  Periodic BC: u=0.000709, v=0.000997, p=0.000355
+Epoch 5200: Added points. Total collocation points: 14689
+         Using mini-batches of size: 2500
+Epoch 5400: Added points. Total collocation points: 14938
+         Using mini-batches of size: 2500
+Epoch 5500/8000, Mini-batch Loss: 0.023611, Full Loss: 0.091332, CD: 0.256494, CL: -0.001321, Time: 322.23s
+  Periodic BC: u=0.000287, v=0.000281, p=0.000123
+Epoch 5600: Added points. Total collocation points: 15204
+         Using mini-batches of size: 2500
+Epoch 5800: Added points. Total collocation points: 15465
+         Using mini-batches of size: 2500
+Epoch 6000: Added points. Total collocation points: 15728
+         Using mini-batches of size: 2500
+Epoch 6000/8000, Mini-batch Loss: 0.014426, Full Loss: 0.047766, CD: 0.308509, CL: 0.015627, Time: 354.30s
+  Periodic BC: u=0.000090, v=0.000076, p=0.000096
+Epoch 6200: Added points. Total collocation points: 15982
+         Using mini-batches of size: 2500
+Epoch 6400: Added points. Total collocation points: 16236
+         Using mini-batches of size: 2500
+Epoch 6500/8000, Mini-batch Loss: 0.002964, Full Loss: 0.007478, CD: 0.359593, CL: 0.043684, Time: 385.90s
+  Periodic BC: u=0.000017, v=0.000012, p=0.000016
+Epoch 6600: Added points. Total collocation points: 16478
+         Using mini-batches of size: 2500
+Epoch 6800: Added points. Total collocation points: 16739
+         Using mini-batches of size: 2500
+Epoch 7000: Added points. Total collocation points: 17001
+         Using mini-batches of size: 2500
+Epoch 7000/8000, Mini-batch Loss: 0.001357, Full Loss: 0.005030, CD: 0.370493, CL: 0.062942, Time: 414.72s
+  Periodic BC: u=0.000004, v=0.000004, p=0.000004
+Epoch 7200: Added points. Total collocation points: 17262
+         Using mini-batches of size: 2500
+Epoch 7400: Added points. Total collocation points: 17528
+         Using mini-batches of size: 2500
+Epoch 7500/8000, Mini-batch Loss: 0.000856, Full Loss: 0.005320, CD: 0.381688, CL: 0.084942, Time: 442.25s
+  Periodic BC: u=0.000002, v=0.000001, p=0.000001
+Epoch 7600: Added points. Total collocation points: 17785
+         Using mini-batches of size: 2500
+Epoch 7800: Added points. Total collocation points: 18040
+         Using mini-batches of size: 2500
+Training completed in 473.45 seconds
+
+============================================================
+Starting L-BFGS fine-tuning...
+============================================================
+L-BFGS Iter 0/300, Loss: 0.000449, CD: 0.370852, CL: 0.094841, Time: 4.77s
+  Periodic BC losses: u=0.000001, v=0.000000, p=0.000001
+L-BFGS Iter 20/300, Loss: 0.000040, CD: 0.417511, CL: 0.231483, Time: 109.49s
+  Periodic BC losses: u=0.000000, v=0.000000, p=0.000000
+L-BFGS Iter 40/300, Loss: 0.000012, CD: 0.426938, CL: 0.232078, Time: 209.89s
+  Periodic BC losses: u=0.000000, v=0.000000, p=0.000000
+L-BFGS Iter 60/300, Loss: 0.000005, CD: 0.428643, CL: 0.239697, Time: 312.42s
+  Periodic BC losses: u=0.000000, v=0.000000, p=0.000000
+L-BFGS Iter 80/300, Loss: 0.000003, CD: 0.429106, CL: 0.240459, Time: 402.23s
+  Periodic BC losses: u=0.000000, v=0.000000, p=0.000000
+L-BFGS Iter 100/300, Loss: 0.000002, CD: 0.429475, CL: 0.242027, Time: 489.88s
+  Periodic BC losses: u=0.000000, v=0.000000, p=0.000000
+L-BFGS Iter 120/300, Loss: 0.000002, CD: 0.429452, CL: 0.241883, Time: 522.05s
+  Periodic BC losses: u=0.000000, v=0.000000, p=0.000000
+L-BFGS Iter 140/300, Loss: 0.000002, CD: 0.429452, CL: 0.241883, Time: 526.54s
+  Periodic BC losses: u=0.000000, v=0.000000, p=0.000000
+L-BFGS Iter 160/300, Loss: 0.000002, CD: 0.429452, CL: 0.241883, Time: 530.95s
+  Periodic BC losses: u=0.000000, v=0.000000, p=0.000000
+  Converged (relative change < 1e-5)
+
+L-BFGS fine-tuning completed in 530.95 seconds
+Final CD after L-BFGS: 0.429452
+Final CL after L-BFGS: 0.241883
+Generating flow field predictions...
+
+==================================================
+FORCE COEFFICIENTS (Solidity = 1.0, AoA = 10.0°):
+==================================================
+Total Drag Coefficient (CD):     0.429452
+  - Pressure contribution:        0.134679
+  - Viscous contribution:         0.294773
+Total Lift Coefficient (CL):     0.241883
+  - Pressure contribution:        0.273152
+  - Viscous contribution:         -0.031270
+==================================================
+PERIODIC BC VERIFICATION:
+==================================================
+Max difference in u (top vs bottom): 0.000180
+Max difference in v (top vs bottom): 0.000039
+Max difference in p (top vs bottom): 0.000051
+==================================================
+
+Model saved to 'naca0012_aoa10_solidity_1.0_model.pth'
+
+Process finished with exit code 0
